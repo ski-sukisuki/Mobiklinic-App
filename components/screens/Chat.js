@@ -321,7 +321,7 @@ export default function Chat({ route, navigation }) {
 		<>
 			<View style={STYLES.messageHeader}>
 				<TouchableOpacity
-					onPress={() => navigation.navigate("Doctors")}>
+                    onPress={() => navigation.goBack()}>
 					<Feather
 						name="arrow-left"
 						size={30}
